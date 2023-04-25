@@ -116,6 +116,7 @@ img {
   flex-wrap: wrap;
   gap: 20px;
   padding-bottom: 22px;
+  padding-top: 22px;
 }
 
 .info-item {

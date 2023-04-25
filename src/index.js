@@ -108,8 +108,6 @@ function renderImagesGallery(pictures){
 }
 
 
-
-
 function Notify() {
     Notiflix.Notify.info('Програма готова!');
 }
