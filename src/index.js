@@ -51,7 +51,7 @@ submit.addEventListener('submit', (event) => {
 
 loadMore.addEventListener('click', () => {
   page +=1
-  fetch(`https://pixabay.com/api/?key=35499078-ae1aac6b87ed3c45ca8fde2a7&q=${value}&image_type=photo&orientation=horizontal&safesearch=true&page=${page}&per_page=20`)
+  fetch(`https://pixabay.com/api/?key=35499078-ae1aac6b87ed3c45ca8fde2a7&q=${value}&image_type=photo&orientation=horizontal&safesearch=true&page=${page}&per_page=40`)
     .then(response => response.json())
     .then(pictures => {
         if (pictures.total === 0) {
@@ -101,8 +101,7 @@ function renderImagesGallery(pictures){
       </p>
     </div>
   </div>
-  </div>
-  `
+  </div>`
    })
    .join("");
    gallery.insertAdjacentHTML('beforeend', markup);

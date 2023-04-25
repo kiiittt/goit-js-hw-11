@@ -54,15 +54,19 @@ body {
 }
 
 .btn-load {
-  position: absolute;
+  position: fixed;
   bottom: 50px;
-  left: 50%;
+  left: 46%;
   cursor: pointer;
   height: 24px;
   border-radius: 6px;
   border: 0;
   background-color: darkgray;
   color: antiquewhite;
+}
+
+.hidden{
+  display: none;
 }
 
 .gallery {
